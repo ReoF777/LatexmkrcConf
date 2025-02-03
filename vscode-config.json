@@ -1,0 +1,19 @@
+"latex-workshop.view.pdf.viewer": "tab",
+"latex-workshop.latex.tools": [
+    {
+        "name": "latexmk",
+        "command": "latexmk",
+        "args":[
+            "%DOCFILE%"
+        ]
+    },
+],
+"latex-workshop.latex.recipes": [
+    {
+        "name": "latexmk",
+        "tools": ["latexmk"]
+    },
+],
+"latex-workshop.latex.autoClean.run": "onBuilt",
+"settingsSync.ignoredExtensions": [
+],
